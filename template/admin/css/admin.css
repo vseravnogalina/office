@@ -1,0 +1,359 @@
+body{
+     background-color: #999999;
+     font-size:1em;
+     margin: 0 auto;
+     padding: 0;
+    text-align:center;
+    height: auto;
+    width: 100%;
+}
+
+a{
+     padding:0.5em;
+}
+a:hover{
+     background:#66ffcc;
+     color:#000000;
+     padding:0.5em;
+}
+
+a.close{
+    color:red;
+    cursor:pointer;
+    margin-left:0;
+    margin-top:0;
+    position:absolute;
+}
+
+/* Ссылка перехода на сайт*/
+a#leftfora{
+     background-color: #ccc;
+     position:fixed;
+     right:3.25em;
+     top:.25em;
+}
+
+.activ {
+    background-color:green;
+}
+
+#activ{ 
+    height:4.5em;
+    width:6em;
+}
+
+/*kartinky*/
+#blockim {
+    background-color:#101010;
+    color:#fff;
+    display:none;
+    float:left;
+    height:18em;
+    opacity:.9;
+    overflow-y:scroll;
+    position:fixed;
+    right:0.25em;
+    top:12em;
+    width:33%;
+    z-index:10;
+}
+#blockim input{
+    background-color:#fefefe;
+    border:1px solid #555555;
+    font-size:0.7em;
+
+}
+#blockim .input{
+    font-size:0.75em;
+    padding:0;
+
+    width:20%;
+}
+#blockim img {
+    border:1px solid #ff0;
+    margin-left:0.125em;
+    width:18%;
+}
+
+.bord, nav ul li a, .selkt input[type=submit],.selkt select, #glav {
+     background-color:#555555;
+     color:#ff0;
+}
+
+/* Разные формы и таблицы*/
+.bor,.bord {
+     border: 3px solid #2f3440;
+     font-size:0.9em;
+}
+.bord a {
+     color:#ff0;
+     font-size:0.9em;
+     text-decoration:underline;
+}
+.bord input {
+     font-size:0.9em;
+     width:9.5em;
+}
+
+.bord td{
+    border: 3px solid #ff0;
+}
+
+#boxx{
+    background:#fff;
+    display:block;
+    padding:1em;
+    position:absolute;
+    top:0.625em;
+    width:85%;
+    z-index:10;
+}
+#boxx a{
+    display:block;
+    position:absolute;
+    right:0.625em;
+    top:0;
+    z-index:5;
+}
+#boxx a:hover{
+    background-color:green;
+    color:#fff;
+}
+
+/*Очищаем плавающие элементы */
+.cen, .knopka {
+    clear:both;
+    width:100%;
+}
+
+/*Левая колонка */
+#centr {
+    background-color: #CCC;
+    float: left;
+    margin-left:1%;
+    padding:0;
+    position:relative;
+    width: 80%;
+}
+
+/*Список незавершенки */
+.del {
+    border:1px solid #555555;
+}
+
+details input {
+   font-size:0.8em;
+}
+/* Поля форм товаров*/
+.dob input,.dob p {
+    font-size:0.9em;
+    padding:0;
+
+    width:8em;
+}
+
+.fifty {
+    float: left;
+margin-left: 1%;
+    width: 48%;
+
+}
+/* Подвал*/
+footer {
+    background-color: #555555;
+    clear:both;
+    height:3em;
+    margin:0 auto;
+    padding:0;
+    width: 100%;
+}
+
+.forlink{
+    display:inline;
+    font-size:0.85em; 
+    margin-left:0.15em;
+}
+
+.full {
+    background-color:blue;
+    color:white;
+
+    width: 98%;
+}
+
+/*Выбор категории в статьях */
+#glav input{width:8em;font-size:0.8em;color:#ff0;}
+
+h4 {
+    text-align:left;
+}
+
+header {
+    float:left;
+    margin-left:2em;
+    width: 85%;
+}
+/* Поля форм*/
+.input {
+    color:#000;
+    font-size:0.85em;
+    padding:0;
+}
+
+.knop,.knopdel {
+    border: 0.1625em solid #555555;
+    border-radius:1em;
+    margin-top:1.5em;
+    padding-bottom:0.5em;
+}
+/*Синие кнопки*/
+.knop {
+    background-color:blue;
+    color:white;
+}
+
+/*Красные кнопки*/
+.knopdel {
+    background-color:red;
+    color:yellow;
+}
+
+/*Правая колонка */
+#left {
+    background-color: #999999;
+    float:right;
+    width:17%;
+}
+
+/* Описание в ячейке*/
+.leftstend{width:47%;padding:0;float:right;height:auto;}
+
+/* Логотип*/
+#logotp {
+    border:0.125em solid #ffffff;
+    float:left;
+    height: auto;
+    width: auto;
+}
+
+/*Модальное окно */
+#mask {
+width:100%;height:100%;position:fixed;top:0;left:0;display:none;background:#000;opacity:.8;
+}
+
+/*Боковое меню */
+menu {
+
+    padding:0;
+    width:95%;
+}
+menu ul {
+     background-color:#ccc;
+     font-size:0.85em;
+     list-style:none;
+     padding:0.5em;
+}
+
+.model {
+    border:0.125em solid #555555;
+}
+
+nav{font: 1.1em arial, sans-serif;}
+nav ul li a, #nav ul li a:visited{display:block;text-decoration:none;color:#ffff00;width:9em;border:1px solid #fff;line-height:1.9em;font-size:0.75em;overflow:hidden}
+nav ul{height: 1.8em;list-style:none;z-index:2;}
+nav ul li{float:left;position:relative;color:#ffff00;}
+nav ul li ul{display:none}
+nav ul li:hover a{color:#fff;background:#36f;}
+nav ul li:hover ul{display:block;position:absolute;top:2em;left:-2.2em;width:7em;}
+nav ul li:hover ul li a{display:block;background:#ddd;color:#000}
+nav ul li:hover ul li a:hover{background:#6fc;color:#000}
+
+nav ul li a:hover{color:#fff;background:#555555;}
+nav ul li a:hover ul{display:block;position:absolute;top:0;left:0;width:6em}
+nav ul li a:hover ul li a{display:block;background:#ddd;color:#000}
+nav ul li a:hover ul li a:hover{background:#6fc;color:#000}
+
+/* Выделение цветом отдельных строк*/
+.newp{color:blue;}
+span{color:#09b02d;}
+
+/*Кнопки в списке модулей */
+.one{width:2.5em;font-size:0.8em;}
+.two{width:9.5em;font-size:0.8em;}
+
+.sel {margin-left:25%;}
+
+/* список выбора */
+.selkt input[type=submit]{
+    border-radius:1em;
+}
+.selkt select{
+    border: 3px solid #2f3440;
+}
+
+/*Страница настроек модулей*/
+#setleft{margin-left:0;}
+#setleft ul{list-style:none;font-size:0.9em;}
+#setleft ul li{display:inline;background-color:white;}
+#centrset{margin-left:0;}
+
+/*Шапка */
+#shapo {
+    background-color: #555555;
+    border: 0.25em solid #ffffff;
+    height: 4.9em;
+    width: 100%;
+
+}
+
+.shpka{margin-left: 2%;float:left;color:#ffffff;}
+
+/*Обертка страниц создания, добавления и редактирования товаров магазина */
+.tov{margin-left:0;position:relative;padding:0;width: 99%;border: 0.0625em solid #555555;float: left;
+}
+
+/*Вкладка, которая скрывает страницу и выводит новое содержание*/
+#tovar{left:0;top:0;position:absolute;background-color:#ddd;padding:0;width: 98%;border: 0.0625em solid #555555;
+}
+#tovar textarea{
+margin-left:0;text-align:left;font-size:0.8em;padding:0;margin-top:0;
+}
+#tovar img{padding:0;}
+
+/*Модальные окна, .dezactiv */
+#winddost, .wind{display:none;cursor:pointer;}
+
+#wrp{
+    background-color: #999999;
+    position: relative;
+}
+
+/*Форма отображения заказа */
+.zakaz{overflow:auto;width:90%; border:0.125em solid #555555;}
+.zakaz input{font: 1em Arial, Tahoma, Verdana, sans-serif;border:2px solid #555555;}
+
+
+/*Плавающий блок */
+.stend{width:47%;padding:0;float:left;border-left:0.025em solid #01718d;border-bottom:0.025em solid #01718d;
+}
+/*Изображение в ячейке */
+.rightstend{padding:0;float:left;width:10em;height:10em;cursor:pointer;}
+.rightstend img {padding:0;width:90%;height:90%;}
+
+#table{width:14em;}
+.tableotch,.tableotchone,.tableotchtwo{float:left;border: 0.1625em solid #555555;height:auto;}
+/*.tableotch{width:15%;}*/
+.tableotchone{width:8%;}
+.tableotchtwo{width:100%;}
+.modelotch{width: 100%;margin: 0 auto;border: 0.0625em solid #555555;float:left;font-size:0.8em}
+.rzd{width:15%;float:left;height:auto;border:solid 2px #000}
+.otch,.otch1,.otch2,.otch3,.otch4 {margin-left:0;float:left;}
+.otch4{width:10%;}
+.otch1{width:38%;}
+.otch2{width:8%;}
+.otch3{width:14%;}
+
+#razdforcontent,#razdforfree{position:fixed;right:0.25em;top:6em;width:23%;background-color:#101010;opacity:.8;color:#fefefe;display:none;z-index:10;font-size:0.9em;}
+
+#showall,#show{left:0;top:0;position:absolute;background-color:#ddd;padding:0;width: 98%;border: 0.0625em solid #555555;display:none;}
+
